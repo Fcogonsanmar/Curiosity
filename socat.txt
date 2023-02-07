@@ -1,0 +1,3 @@
+Port Forwarding from 2222 to 22
+
+socat TCP:LISTEN 2222,fork TCP:{DESTINATION IP}:22

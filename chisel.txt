@@ -1,0 +1,11 @@
+Server:
+
+./chisel server --reverse -p {LISTEN:PORT}
+
+Client:
+
+./chisel client {SERVERIP}:{LISTENPORT} R:socks
+
+
+Client specific port:
+./chisel client {SERVERIP}:{LISTENPORT} R:{Set port for proxy}:socks
